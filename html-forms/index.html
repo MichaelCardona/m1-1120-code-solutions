@@ -6,11 +6,11 @@
   <h1>Coding Forms!</h1>
   <form action="index.html" method="GET">
     <div>
-      Email<br>
+      <label for="Email">Email</label><br>
       <input type="text" name="Email" size="20" maxlegnth="30"/>
     </div>
     <div>
-      Why is code cool? <br>
+      <label for="why is code cool">Why is code cool?</label> <br>
       <select name="reasons">
         <option value="Select an option">Select an Option</option>
         <option value="Because it's intresting">Because it's intresting</option>
@@ -18,16 +18,20 @@
         <option value="Because it's powerful">Because it's powerful</option>
       </select>
     </div>
-    <div> Favorite Language (Choose one) <br>
+    <div>
+      <label for="Language"> Favorite Language (Choose one)</label> <br>
       <input type="radio" name="Code" value="HTML" checked="checked" /> HTML
       <input type="radio" name="Code" value="CSS" /> CSS
       <input type="radio" name="Code" value="Javascript" /> Javascript
      </div>
-     <div>Would you like to sign up for more information?<br>
+     <div>
+       <label for="question">Would you like to sign up for more information?</label><br>
       <input type="checkbox" name="Sign up" value="Sign me up" /> Sign me up!
      </div>
-     <div> Comments <br> </div>
+     <div>
+       <label for="comments">Comments</label> <br>
       <textarea name="Comments" cols="20" rows="4"></textarea>
+      </div>
 
 
   </form>
