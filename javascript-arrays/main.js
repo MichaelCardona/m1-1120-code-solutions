@@ -24,7 +24,7 @@ var lastIndex = numberofStudents - 1;
 console.log(lastIndex);
 
 var lastStudent;
-lastStudent = students[3];
+lastStudent = students[lastIndex];
 
 console.log('The last student in the array is' + ' ' + lastStudent + '.');
 
